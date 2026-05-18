@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PLAYMENFLIX</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<div class="nav">
+
+  <div class="logo">
+    PLAYMENFLIX
+  </div>
+
+  <div class="search-box">
+
+    <input
+      type="text"
+      id="search"
+      placeholder="Search movies, trailers..."
+    >
+
+  </div>
+
+</div>
+
+<!-- BANNER -->
+
+<header id="banner">
+
+  <iframe
+    id="bannerVideo"
+    class="banner-video"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+
+  <div class="banner-content">
+
+    <h1 id="banner-title"></h1>
+
+    <p id="banner-desc"></p>
+
+    <button
+      class="btn-play"
+      id="playBanner">
+
+      ▶ Play Trailer
+
+    </button>
+
+  </div>
+
+</header>
+
+<!-- TRENDING -->
+
+<div class="row">
+
+  <h2>Trending</h2>
+
+  <div
+    id="movies"
+    class="row-posters">
+
+  </div>
+
+</div>
+
+<!-- TOP RATED -->
+
+<div class="row">
+
+  <h2>Top Rated</h2>
+
+  <div
+    id="toprated"
+    class="row-posters">
+
+  </div>
+
+</div>
+
+<!-- ACTION -->
+
+<div class="row">
+
+  <h2>Action</h2>
+
+  <div
+    id="action"
+    class="row-posters">
+
+  </div>
+
+</div>
+
+<!-- COMEDY -->
+
+<div class="row">
+
+  <h2>Comedy</h2>
+
+  <div
+    id="comedy"
+    class="row-posters">
+
+  </div>
+
+</div>
+
+<!-- MODAL -->
+
+<div
+  id="modal"
+  class="modal">
+
+  <div class="modal-content">
+
+    <span id="close">&times;</span>
+
+    <iframe
+      id="video"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
